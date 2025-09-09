@@ -274,20 +274,43 @@ h3 {
 }
 
 .panel-body .progress:nth-of-type(1) .progress-bar {
-    background-color: #adc8cd; 
+    background-color: #adc8cd80 !important; 
 }
 
 .panel-body .progress:nth-of-type(2) .progress-bar {
-    background-color: #90a7a6; 
-}
-.panel-body .progress:nth-of-type(2) div:last-child {
-    color: #222;
-    font-weight: bold;
+    background-color: #90a7a680 !important; 
 }
 .panel-body .progress:nth-of-type(3) .progress-bar {
-    background-color: #809093; 
+    background-color: #45788280 !important; 
 }
 .panel-body .progress:nth-of-type(4) .progress-bar {
-    background-color: #9cbabc; 
+    background-color: #7b9a9c80 !important; 
+}
+div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
+background: #c3d5d680 !important;
+}
+
+input, select, textarea {
+	background: #8a9e9f80 !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: #fff !important;
+	text-shadow: none !important;
+}
+input[type=button]:hover, input[type=submit]:hover {
+	background: #cddfe080 !important;
+}
+.dynastylist .left {
+	background-color: #8daead80 !important;
+}
+.dynastylist .left h3 {
+	color: #e3ecec80 !important;
+}
+.col.col-sm-4 .left {
+	background-color: #647c7c80 !important;
+	color: #ffffff80 !important;
+}
+.left {
+	background-color: #647c7c80 !important;
 }
 
