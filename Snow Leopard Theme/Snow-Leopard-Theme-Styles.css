@@ -40,6 +40,12 @@ body {
 .topbar a:hover {
 	color: #e1ebec !important;
 }
+img[src*="icon-beetle-silver.png"] {
+	content: url('https://github.com/snnxwww/Custom-CSS-Themes/blob/main/Snow%20Leopard%20Theme/sb.png?raw=true') !important;
+}
+img[src*="icon-beetle-gold.png"] {
+	content: url('https://github.com/snnxwww/Custom-CSS-Themes/blob/main/Snow%20Leopard%20Theme/gb.png?raw=true') !important;
+}
 
 .navbar {
 	background-color: #698a8a80 !important;
@@ -68,6 +74,10 @@ body {
 .navbar-header a:hover {
 	background-color: #ffffff00 !important
 }
+img[src*="logo-full-2.png"] {
+	content: url('https://github.com/snnxwww/Custom-CSS-Themes/blob/main/Snow%20Leopard%20Theme/logo.png?raw=true') !important;
+}
+
 
 .breadcrumb {
 	background-color: #698a8a40 !important;
