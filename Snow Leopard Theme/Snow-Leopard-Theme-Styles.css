@@ -1,5 +1,9 @@
 @import url('@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 
+* {
+	color: #526363 !important;
+}
+
 body {
 	background-color: #d9e6e6 !important;
 	background-image: url('https://github.com/snnxwww/Custom-CSS-Themes/blob/main/Snow%20Leopard%20Theme/snowleopardbg.png?raw=true') !important;
@@ -63,4 +67,158 @@ body {
 
 .navbar-header a:hover {
 	background-color: #ffffff00 !important
+}
+
+.breadcrumb {
+	background-color: #698a8a40 !important;
+	border-radius: 2px !important;
+}
+.breadcrumb a {
+	color: #5f6c6c !important;
+}
+.breadcrumb-item {
+	color: #7b8d8d !important;
+}
+.breadcrumb-item.active {
+	color: #5d8d8d !important;
+}
+
+.alert {
+	color: #5b7d7d !important;
+}
+.alert a {
+	color: #dfebeb !important;
+}
+.alert a:hover {
+	color: #cfe0e0 !important;
+}
+.alert-warning, .alert-danger {
+	background-color: #536e6e40 !important;
+	border: none !important;
+	border-radius: 2px !important;
+}
+.alert-success {
+	background-color: #849c9c40 !important;
+	border: none !important;
+
+}
+
+h1 {
+	color: #fff !important;
+	font-family: "Bonheur Royale", serif !important;
+	text-align: center !important;
+	font-size: 60px !important;
+}
+
+#commentBox {
+	background-color: #ffffff20 !important;
+	border-radius: 4px !important;
+	border: 1px solid #849c9c!important;
+}
+.comment {
+	background-color: #ffffff00 !important;
+	border-top: 1px solid #849c9c !important;
+	color: #fff !important;
+}
+.comment:first-child {
+	border: none !important;
+}
+.comment a {
+	color: #789292 !important;
+}
+.comment a:hover {
+	color: #a8bcbd !important;
+}
+#comment {
+	background-color: #849c9c80 !important;
+	border: none !important;
+	padding-left: 5px !important;
+	border-radius: 2px !important;
+}
+
+
+.table {
+	background-color: #ffffff20 !important;
+	border-radius: 4px !important;
+	border: none !important;
+}
+.table .top, .table th {
+	background-color: #9eb8b890 !important;
+}
+.table .left {
+	background-color: #bbcdcd90 !important;
+}
+.table .left.b.center {
+	display: none !important;
+}
+.table .inner-table .right {
+	background-color: #d2dcdc90 !important;
+}
+.table .bottom {
+	background-color: #9eb8b890 !important;
+}
+.table a {
+	color: #728587 !important;
+	text-decoration: none !important;
+}
+.table a:hover {
+	color: #cddcde !important;
+}
+
+select {
+    background-color: #9eb8b890 !important;
+    color: #fff !important;
+    padding: 1px !important;
+	padding-left: 5px !important;
+    border-radius: 2px !important;
+    border: none !important;
+}
+
+.member-online {
+	background-color: #00000000 !important;
+}
+.member-online::before {
+    content: "[online]" !important;
+    color: #5e6a6b !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: -55px !important; 
+    display: inline-flex; 
+    align-items: center;
+	padding-right: 10px !important;
+}
+
+.member-online::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: #d9f4f4; 
+    border-radius: 50%; 
+    margin-right: 0px !important;
+	margin-top: 10px !important;
+}
+.member-offline {
+	background-color: #00000000 !important;
+}
+.member-offline::before {
+    content: "[offline]" !important;
+    color: #5e6a6b !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: -55px !important; 
+    display: inline-flex; 
+    align-items: center;
+	padding-right: 10px !important;
+}
+
+.member-offline::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: #798e8e; 
+    border-radius: 50%; 
+    margin-right: 0px !important;
+	margin-top: 10px !important;
 }
