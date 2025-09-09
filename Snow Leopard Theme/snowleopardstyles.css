@@ -320,3 +320,10 @@ input[type=button]:hover, input[type=submit]:hover {
   text-align: center;
   border-bottom-right-radius: 2px; 
 }
+
+#player td.right_odd {
+  background-color: #9eb8b890 !important; 
+  border-top: nonef !important; 
+  padding: 8px 10px;
+  font-size: 13px;
+}
