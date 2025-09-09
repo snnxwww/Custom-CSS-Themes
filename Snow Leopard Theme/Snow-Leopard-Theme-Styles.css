@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-	background-color: #c8dbdd !important;
+	background-color: #d9e6e6 !important;
 	background-image: url('https://github.com/snnxwww/Custom-CSS-Themes/blob/main/Snow%20Leopard%20Theme/snowleopardbg.png?raw=true') !important;
 	background-position: center !important;
 	background-size: cover !important;
@@ -26,8 +26,41 @@ body {
 
 .topbar {
 	background-color: #9eb4b480 !important;
-	color: #fff !important;
+	color: #587072 !important;
+	border-bottom-left-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
 }
 .topbar a {
-	color: #fff !important;
+	color: #647d7f !important;
+}
+.topbar a:hover {
+	color: #e1ebec !important;
+}
+
+.navbar {
+	background-color: #698a8a80 !important;
+	border-top-left-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+}
+.navbar a {
+	color: #dbebeb !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	vertical-align: middle !important;
+}
+.navbar a:hover {
+	background-color: #b7cccc80 !important;
+	color: #5e7575 !important;
+	text-shadow: 0px 0px 1px #dfeae9, 
+		0px 0px 1px #dfeae9, 
+		0px 0px 1px #dfeae9, 
+		0px 0px 5px #dfeae9,
+		0px 0px 5px #dfeae9,
+		0px 0px 5px #dfeae9,
+		0px 0px 10px #dfeae9
+	;
+}
+
+.navbar-header a:hover {
+	background-color: #ffffff00 !important
 }
