@@ -232,3 +232,62 @@ select {
     margin-right: 0px !important;
 	margin-top: 10px !important;
 }
+
+.cave-grid, .mound-grid {
+	background-color: #9eb8b890 !important;
+	border: none !important;
+	border-radius: 2px !important;
+	color: #425e5e !important;
+}
+.cave-grid:hover, .mound-grid:hover {
+	color: #e0eaea !important;
+	opacity: 0.8 !important;
+}
+.cave-grid img, .mound-grid img {
+	opacity: 0.8 !important;
+}
+
+.sidebar .panel {
+	background-color: #ffffff80 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.panel-body {
+	color: #92b4b6 !important;
+}
+.panel a {
+	color: #668688 !important;
+}
+.panel a:hover {
+	color: #86a3a5 !important;
+}
+h3 {
+	color: #6b8583 !important;
+}
+
+.progress {
+    background-color: #b8d0cf60;  /* light grey background */
+    border-radius: 2px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 20px;
+}
+
+.panel-body .progress:nth-of-type(1) .progress-bar {
+    background-color: #adc8cd; 
+}
+
+.panel-body .progress:nth-of-type(2) .progress-bar {
+    background-color: #90a7a6; 
+}
+.panel-body .progress:nth-of-type(2) div:last-child {
+    color: #222;
+    font-weight: bold;
+}
+.panel-body .progress:nth-of-type(3) .progress-bar {
+    background-color: #809093; 
+}
+.panel-body .progress:nth-of-type(4) .progress-bar {
+    background-color: #9cbabc; 
+}
+
