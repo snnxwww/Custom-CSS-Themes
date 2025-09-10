@@ -385,3 +385,10 @@ input[type=button]:hover, input[type=submit]:hover {
 	background-color: #ffffffd0 !important;
 	color: #93a7ab !important;
 }
+#chatMessagePinned {
+	background-color: #b3cdcf80 !important;
+	border-bottom: none !important;
+}
+#chatMessagePinned a {
+	color: #8eaaaa !important;
+}
