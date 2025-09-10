@@ -328,4 +328,52 @@ input[type=button]:hover, input[type=submit]:hover {
   font-size: 13px;
 }
 
+.s-chat-message:nth-child(even) {
+	background: #ffffff80 !important;
+	border-bottom: 1px solid #fff !important;	
+}
+.s-chat-message:nth-child(odd) {
+	background: #ffffff80 !important;
+	border-bottom: 1px solid #fff !important;
+}
+.s-chat-message[data-mid="553411"] {
+    background-color: #c5dbe380 !important; /* example background */
+    border-radius: 4px;
+}
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background-color: #c5dbe380 !important;
+}
 
+#fra_chatContainer .channelMenu .channelSwitcher {
+	color: #627174 !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+	background-color: #93a7ab80 !important;
+	color: #ffffff !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+	background-color: #93a7ab80 !important;
+	color: #ffffff !important;
+	}
+.s-chat-message_claim {
+	background-color: #b3d0d280 !important;
+	border-bottom: none !important;
+	color: #a2cacd !important;
+	}
+#modalClaimBG {
+	background: #ffffff80 !important;
+}
+#modalClaimList {
+	background: #c8dcdc80 !important;
+	border: none !important;
+	box-shadow: none!important;
+}
+#modalClaimList h3 {
+	background: #889fa080 !important;
+	color: #fff !important;
+}
+#modalClaimList button.close {
+	color: #fff !important;
+}
