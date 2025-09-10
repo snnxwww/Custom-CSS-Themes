@@ -328,6 +328,4 @@ input[type=button]:hover, input[type=submit]:hover {
   font-size: 13px;
 }
 
-body[style] {
-  background: transparent !important;
-}
+
