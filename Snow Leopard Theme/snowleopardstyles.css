@@ -377,3 +377,11 @@ input[type=button]:hover, input[type=submit]:hover {
 #modalClaimList button.close {
 	color: #fff !important;
 }
+.chatMenu-container {
+	background-color: #ffffffd0 !important;
+	color: #93a7ab !important;
+}
+#label_currentChannel {
+	background-color: #ffffffd0 !important;
+	color: #93a7ab !important;
+}
