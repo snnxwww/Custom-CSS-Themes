@@ -392,3 +392,19 @@ input[type=button]:hover, input[type=submit]:hover {
 #chatMessagePinned a {
 	color: #8eaaaa !important;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bdd6d480;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #92a9a980;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6c7c7c80;
+}
