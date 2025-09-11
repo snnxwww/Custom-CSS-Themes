@@ -265,7 +265,7 @@ h3 {
 }
 
 .progress {
-    background-color: #b8d0cf60;  /* light grey background */
+    background-color: #b8d0cf60;  
     border-radius: 2px;
     margin-bottom: 10px;
     position: relative;
@@ -337,7 +337,7 @@ input[type=button]:hover, input[type=submit]:hover {
 	border-bottom: 1px solid #fff !important;
 }
 .s-chat-message[data-mid="553411"] {
-    background-color: #c5dbe380 !important; /* example background */
+    background-color: #c5dbe380 !important;
     border-radius: 4px;
 }
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
