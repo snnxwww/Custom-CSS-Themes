@@ -1,0 +1,27 @@
+:root {
+	--font: "MAINFONT", BACKUP1, BACKUP2, FONTFAMILY;
+
+	--bg-img: url('IMGLINKHERE');
+	--mn-clr: #HEXCODE;
+	--sd-clr: #HEXCODE
+}
+
+
+* {
+	font-family: var(--font) !important;
+}
+
+body {
+	background-color: var(--bg-clr) !important;
+	background-image: var(--bg-img) !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-size: cover !important;
+}
+.col-md-9 {
+	background-color: var(--mn-clr) !important;
+}
+.col-md-3 {
+	background-color: var(--sd-clr) !important;
+}
