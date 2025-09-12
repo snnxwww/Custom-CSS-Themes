@@ -112,7 +112,7 @@ body {
 	vertical-align: middle !important;
 }
 .navbar a:hover {
-	background-color: color-mix(in srgb, #NBCLR, white 75%) !important;
+	background-color: color-mix(in srgb, #NBCLR, white 25%) !important;
 	color: colr-mix(in srgb, #NBTXTCLR, white 50%) !important;
 	text-shadow: 0px 0px 1px color-mix(in srgb, #NBTXTCLR, 75%), 
 		0px 0px 1px color-mix(in srgb, #NBTXTCLR, 75%), 
