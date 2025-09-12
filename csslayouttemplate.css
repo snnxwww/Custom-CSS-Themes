@@ -371,18 +371,18 @@ input[type=button]:hover, input[type=submit]:hover {
 
 #player td.right_odd {
   background-color: color-mix( in srgb, #TBCLR, black 10%) !important; 
-  border-top: nonef !important; 
+  border-top: none !important; 
   padding: 8px 10px;
   font-size: 13px;
 }
 
 .s-chat-message:nth-child(even) {
 	background: #MSCLR !important;
-	border-bottom: 1px solid #fff !important;	
+	border-bottom: 1px solid color-mix(in srgb, #MSCLR, white 50%) !important;	
 }
 .s-chat-message:nth-child(odd) {
 	background: #MSCLR !important;
-	border-bottom: 1px solid #fff !important;
+	border-bottom: 1px solid color-mix(in srgb, #MSCLR, white 50%) !important;
 }
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 	background-color: color-mix(in srgb, #MSCLR, black 10%) !important;
@@ -422,11 +422,11 @@ input[type=button]:hover, input[type=submit]:hover {
 	color: #CLTXTCLR !important;
 }
 .chatMenu-container {
-	background-color: #ffffffd0 !important;
+	background-color: #CDRPCLR !important;
 }
 #label_currentChannel {
 	background-color: #CDRPCLR !important;
-	color: #93a7ab !important;
+	color: #CDRPTXTCLR !important;
 }
 #chatMessagePinned {
 	background-color: #CPNCLR !important;
@@ -449,5 +449,5 @@ input[type=button]:hover, input[type=submit]:hover {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: color-mix(in srgb, #THCLR, 20%);
+  background: color-mix(in srgb, #THCLR, black 20%);
 }
