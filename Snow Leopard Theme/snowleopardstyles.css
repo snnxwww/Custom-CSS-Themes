@@ -23,7 +23,7 @@ body {
 .col-md-9 {
 	background-color: #ffffff00 !important;
 }
-.col-md-3 {
+.sidebar.col-md-3 {
 	background-color: #9eb4b480 !important;
 }
 
