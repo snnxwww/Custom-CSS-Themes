@@ -1,0 +1,404 @@
+/**/
+/* CSS LAYOUT MADE BY SNOW (#553411), DO NOT REMOVE CREDIT
+   YOU MAY USE THIS FOR PERSONAL USE ONLY
+   THIS IS A LAYOUT, NOT A TEMPLATE
+   DO NOT EDIT, REDISTRIBUTE, OR CLAIM AS YOUR OWN
+   THIS IS NOT A TEMPLATE FOR YOU TO USE, DO NOT USE THIS AS A BASE FOR YOUR OWN CSS
+   THESE LAYOUTS ARE FREE, AND I AM FREE TO TAKE THEM DOWN AT ANY MOMENT
+   UNDER NO CIRCUMSTANCE SHOULD THIS TEMPLATE BE FREE TO USE, THIS IS ONLY HERE FOR ARCHIVAL PURPOSES
+*/
+
+
+* {
+	color: #545d60 !important;
+	font-family: "OpenSans", Sans-Serif !important;
+}
+
+body {
+	background-color: #acc2cc;
+	background-image: url('https://github.com/snnxwww/snowscssthemes/blob/main/Ocean%20Theme/oceanbg.png?raw=true');
+	background-position: center !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+}
+
+.main {
+	background-color: #b6c0c780 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.col-xs-12 {
+	background-color: #ffffff00 !important;
+}
+.col-md-9 {
+	background-color: #ffffff00 !important;
+}
+.col-md-3 {
+	background-color: #869ba380 !important;
+}
+
+.topbar {
+	background-color: #d8f6ff80 !important;
+	color: #ffffff !important;
+	border-bottom-left-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+.topbar a {
+	color: color-mix(in srgb, #112b40, black 25%) !important;
+}
+.topbar a:hover {
+	color: color-mix(in srgb, #112b40, white 75%) !important;
+}
+
+.navbar {
+	background-color: #59798b80 !important;
+	border-top-left-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+}
+.navbar a {
+	color: #c7d6d8 !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	vertical-align: middle !important;
+}
+.navbar a:hover {
+	background-color: color-mix(in srgb, #59798b80, white 25%) !important;
+	color: color-mix(in srgb, #c7d6d8, black 50%) !important;
+	text-shadow: 0px 0px 1px color-mix(in srgb, #c7d6d8, white 75%), 
+		0px 0px 1px color-mix(in srgb, #c7d6d8, white 75%), 
+		0px 0px 1px color-mix(in srgb, #c7d6d8, white 75%), 
+		0px 0px 5px color-mix(in srgb, #c7d6d8, white 75%),
+		0px 0px 5px color-mix(in srgb, #c7d6d8, white 75%),
+		0px 0px 5px color-mix(in srgb, #c7d6d8, white 75%),
+		0px 0px 10px color-mix(in srgb, #c7d6d8, white 75%) !important;
+}
+
+.navbar-header a:hover {
+	background-color: #ffffff00 !important
+}
+img[src*="logo-full-2.png"] {
+	content: url('https://github.com/snnxwww/snowscssthemes/blob/main/Ocean%20Theme/logo.png?raw=true') !important;
+}
+
+
+.breadcrumb {
+	background-color: #c3d9de80 !important;
+	border-radius: 2px !important;
+}
+.breadcrumb::after {
+    content: "CSS by Snow (#553411)";
+    font-size: 11px;
+    margin-left: 6px;
+	float: right !important;
+	padding-right: 90px;
+}
+.breadcrumb a {
+	color: #b6c2c5 !important;
+}
+.breadcrumb-item {
+	color: color-mix(in srgb, #b6c2c5, white 10%) !important;
+}
+.breadcrumb-item.active {
+	color: color-mix(in srgb, #b6c2c5, white 25%) !important;
+}
+
+.alert {
+	color: #adb8c1 !important;
+}
+.alert a {
+	color: #8a9eae !important;
+}
+.alert a:hover {
+	color: color-mix(in srgb, #7996ac, white 50%) !important;
+}
+.alert-warning, .alert-danger {
+	background-color: color-mix(in srgb, #46586280, black 25%) !important;
+	border: none !important;
+	border-radius: 2px !important;
+}
+.alert-success {
+	background-color: #46586280 !important;
+	border: none !important;
+
+}
+
+h1 {
+	color: #749fb480 !important;
+	font-family: "OpenSans", serif !important;
+	text-align: center !important;
+	font-size: 60px !important;
+}
+
+#commentBox {
+	background-color: #b2c6d180 !important;
+	border-radius: 4px !important;
+	border: 1px solid color-mix(in srgb, #b2c6d180, black 50%) !important;
+}
+.comment {
+	background-color: #ffffff00 !important;
+	border-top: 1px solid color-mix(in srgb, #b2c6d180, black 50%) !important;
+	color: #3c5467 !important;
+}
+.comment:first-child {
+	border: none !important;
+}
+.comment a {
+	color: color-mix(in srgb, #3c5467, black 25%), !important;
+}
+.comment a:hover {
+	color: color-mix(in srgb, #3c5467, white 10%) !important;
+}
+#comment {
+	background-color: color-mix( in srgb, #b2c6d180, black 10%) !important;
+	border: none !important;
+	padding-left: 5px !important;
+	border-radius: 2px !important;
+}
+
+
+.table {
+	background-color: #c5ced580 !important;
+	border-radius: 4px !important;
+	border: none !important;
+}
+.table .top, .table th {
+	background-color: #4a607280 !important;
+}
+.table .left {
+	background-color: #8da2b280 !important;
+}
+.table .left.b.center {
+	display: none !important;
+}
+.table .inner-table .right {
+	background-color: #bbc8d180 !important;
+}
+.table .bottom {
+	background-color: #c5ced580 !important;
+}
+.table a {
+	color: #6a7c89 !important;
+	text-decoration: none !important;
+}
+.table a:hover {
+	color: color-mix(in srgb, #6a7c89, white 50%) !important;
+}
+
+select {
+    background-color: #9db5c180 !important;
+    color: #d9e1e5 !important;
+    padding: 1px !important;
+	padding-left: 5px !important;
+    border-radius: 2px !important;
+    border: none !important;
+}
+
+.member-online {
+	background-color: #00000000 !important;
+}
+.member-online::before {
+    content: "[online]" !important;
+    color: #506978 !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: -55px !important; 
+    display: inline-flex; 
+    align-items: center;
+	padding-right: 10px !important;
+}
+
+.member-online::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: #537f98; 
+    border-radius: 50%; 
+    margin-right: 0px !important;
+	margin-top: 10px !important;
+}
+.member-offline {
+	background-color: #00000000 !important;
+}
+.member-offline::before {
+    content: "[offline]" !important;
+    color: #506978 !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: -55px !important; 
+    display: inline-flex; 
+    align-items: center;
+	padding-right: 10px !important;
+}
+
+.member-offline::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: color-mix(in srgb, #537f98, black 50%); 
+    border-radius: 50%; 
+    margin-right: 0px !important;
+	margin-top: 10px !important;
+}
+
+.cave-grid, .mound-grid {
+	background-color: #7f96a280 !important;
+	border: none !important;
+	border-radius: 2px !important;
+	color: #b1cbd0 !important;
+}
+.cave-grid:hover, .mound-grid:hover {
+	color: color-mix(in srgb, #7f96a280, white 25%) !important;
+	opacity: 0.8 !important;
+}
+.cave-grid img, .mound-grid img {
+	opacity: 0.8 !important;
+}
+
+.sidebar .panel {
+	background-color: #dce3e780 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.panel-body {
+	color: #53656f !important;
+}
+.panel a {
+	color: color-mix(in srgb, #53656f, 10%) !important;
+}
+.panel a:hover {
+	color: color-mix(in srgb, #53656f, white 25%) !important;
+}
+h3 {
+	color: color-mix(in srgb, #53656f, black 25%) !important;
+}
+
+.progress {
+    background-color: color-mix(in srgb, #dce3e780, white 75%) !important;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 20px;
+}
+.progress-bar {
+	background-color: #667e8c80 !important;
+}
+
+
+input, select, textarea {
+	background: #7d94a0 !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: #b8c8d3 !important;
+	text-shadow: none !important;
+}
+input[type=button]:hover, input[type=submit]:hover {
+	background: color-mix(in srgb, #7d94a0, white 25) !important;
+}
+
+.dynastylist .left {
+	background-color: #7a97a480 !important;
+}
+.dynastylist .left h3 {
+	color: #b8c8d2 !important;
+}
+.col.col-sm-4 .left {
+	background-color: #7d94a0 !important;
+	color: #b8c8d3 !important;
+}
+.left {
+	background-color: #7d94a0 !important;
+}
+
+#sparring td.right_odd {
+  background-color: #c5ced580; 
+  padding: 10px; 
+  font-size: 12px; 
+  text-align: center;
+  border-bottom-right-radius: 2px; 
+}
+
+#player td.right_odd {
+  background-color: color-mix( in srgb, #c5ced580, black 10%) !important; 
+  border-top: none !important; 
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.s-chat-message:nth-child(even) {
+	background: #9dbbcb80 !important;
+	border-bottom: 1px solid color-mix(in srgb, #9dbbcb80, white 50%) !important;	
+}
+.s-chat-message:nth-child(odd) {
+	background: #9dbbcb80 !important;
+	border-bottom: 1px solid color-mix(in srgb, #9dbbcb80, white 50%) !important;
+}
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background-color: color-mix(in srgb, #9dbbcb80, black 10%) !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+	color: #627d96 !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+	background-color: color-mix(in srgb, #5f90a5, black 25%) !important;
+	color: color-mix(in srgb, #627d96, white 25%) !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+	background-color: color-mix(in srgb, #5f90a5, black 25%) !important;
+	color: color-mix(in srgb, #627d96, white 25%) !important;
+	}
+.s-chat-message_claim {
+	background-color: color-mix(in srgb, #5f90a5, white 25%) !important;
+	border-bottom: none !important;
+	color: color-mix(in srgb, #627d96, black 50%) !important;
+	}
+#modalClaimBG {
+	background: #d6dee180 !important;
+}
+#modalClaimList {
+	background: #7497b280 !important;
+	border: none !important;
+	box-shadow: none!important;
+}
+#modalClaimList h3 {
+	background: color-mix(in srgb, #7497b280, black 25%) !important;
+	color: #cfd8de !important;
+}
+#modalClaimList button.close {
+	color: #cfd8de !important;
+}
+.chatMenu-container {
+	background-color: #c7d4dfd0 !important;
+}
+#label_currentChannel {
+	background-color: #c7d4dfd0 !important;
+	color: #627d96 !important;
+}
+#chatMessagePinned {
+	background-color: #557f9280 !important;
+	border-bottom: none !important;
+}
+#chatMessagePinned a {
+	color: #627d96 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #6090aa80;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #46617080;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, #46617080, black 20%);
+}
