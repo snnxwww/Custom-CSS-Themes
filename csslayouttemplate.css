@@ -113,14 +113,14 @@ body {
 }
 .navbar a:hover {
 	background-color: color-mix(in srgb, #NBCLR, white 25%) !important;
-	color: colr-mix(in srgb, #NBTXTCLR, white 50%) !important;
+	color: colr-mix(in srgb, #NBTXTCLR, black 50%) !important;
 	text-shadow: 0px 0px 1px color-mix(in srgb, #NBTXTCLR, 75%), 
-		0px 0px 1px color-mix(in srgb, #NBTXTCLR, 75%), 
-		0px 0px 1px color-mix(in srgb, #NBTXTCLR, 75%), 
-		0px 0px 5px color-mix(in srgb, #NBTXTCLR, 75%),
-		0px 0px 5px color-mix(in srgb, #NBTXTCLR, 75%),
-		0px 0px 5px color-mix(in srgb, #NBTXTCLR, 75%),
-		0px 0px 10px color-mix(in srgb, #NBTXTCLR, 75%) !important;
+		0px 0px 1px color-mix(in srgb, #NBTXTCLR, white 75%), 
+		0px 0px 1px color-mix(in srgb, #NBTXTCLR, white 75%), 
+		0px 0px 5px color-mix(in srgb, #NBTXTCLR, white 75%),
+		0px 0px 5px color-mix(in srgb, #NBTXTCLR, white 75%),
+		0px 0px 5px color-mix(in srgb, #NBTXTCLR, white 75%),
+		0px 0px 10px color-mix(in srgb, #NBTXTCLR, white 75%) !important;
 }
 
 .navbar-header a:hover {
