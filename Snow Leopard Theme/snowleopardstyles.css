@@ -245,6 +245,9 @@ select {
 .cave-grid img, .mound-grid img {
 	opacity: 0.8 !important;
 }
+.col-md-3.col-xs-4.center {
+	background: #ffffff00 !important;
+}
 
 .sidebar .panel {
 	background-color: #ffffff80 !important;
