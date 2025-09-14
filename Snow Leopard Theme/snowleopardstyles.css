@@ -302,6 +302,15 @@ background: #c3d5d680 !important;
 .button:hover {
 	background: #cddfe080 !important;
 }
+input, select, textarea {	background: #8a9e9f80 !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: #fff !important;
+	text-shadow: none !important;
+}
+input[type=button]:hover, input[type=submit]:hover {
+	background: #cddfe080 !important;
+}
 .dynastylist .left {
 	background-color: #8daead80 !important;
 }
