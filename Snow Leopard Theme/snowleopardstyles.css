@@ -292,7 +292,7 @@ div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
 background: #c3d5d680 !important;
 }
 
-button {
+.button {
 	background: #8a9e9f80 !important;
 	border: none !important;
 	box-shadow: none !important;
