@@ -1,29 +1,29 @@
 :root {
-	--txt: #2a1358;
+	--txt: #a69db8;
 	--font: "Quicksand";
 	--fontfam: "Sans-Serif";
 
-	--bgclr: #330099;
+	--bgclr: #33009980;
 	--bgimg: url('https://dt565gqrz3z7y.cloudfront.net/ce/image/J9qnnIz_7o6WUV6Oo76TSw.jpg');
-	--mnclr: #2e0b7080;
-	--sdclr: #422e6a80;
+	--mnclr: #8e7eaad5;
+	--sdclr: #5a4b77d5;
 
-	--tbclr: #290b5ee0;
-	--tbtxt: #b2aac380;
+	--tbclr: #290b5ed5;
+	--tbtxt: #b2aac3d5;
 
-	--nbclr: #2f166280;
-	--nbtxt: #b5abc880;
+	--nbclr: #320986d5;
+	--nbtxt: #b7aec9d5;
 
-	--bcclr: #5a3f9080;
-	--bctxt: #32254b;
+	--bcclr: #5a3f90d5;
+	--bctxt: #32254bd5;
 
-	--alrtclr: #4f348180;
-	--alrttxt: #bdb5ce80;
+	--alrtclr: #4f3481d5;
+	--alrttxt: #bdb5ced5;
 
-	--hdtxt: #33009980;
-	--hdfont: "Zalando Sans Expanded";
+	--hdtxt: #1c0053d5;
+	--hdfont: "Zalando Sans Expanded" !important;
 
-	--cmbclr: #674c9d80;
+	--cmbclr: #44258180;
 	--cmbtxt: #9476c880;
 
 	--tblclr: #8260c480;
