@@ -1,5 +1,5 @@
 :root {
-	--txt: #a69db8;
+	--txt: #c8bfd8;
 	--font: "Quicksand";
 	--fontfam: "Sans-Serif";
 
@@ -81,7 +81,7 @@ body {
 
 .topbar {
 	background-color: var(--tbclr) !important;
-	color: var(--tbtxt) !important;
+	color: color-mix(in srgb, var(--tbtxt), white 90%) !important;
 	border-bottom-left-radius: 4px !important;
 	border-bottom-right-radius: 4px !important;
 }
@@ -375,11 +375,11 @@ input[type=button]:hover, input[type=submit]:hover {
 	border: none !important;
 }
 .s-chat-message:nth-child(even) {
-	background: #ffffff80 !important;
+	background: #ffffff40 !important;
 	border-bottom: 1px solid #fff !important;	
 }
 .s-chat-message:nth-child(odd) {
-	background: #ffffff80 !important;
+	background: #ffffff40 !important;
 	border-bottom: 1px solid  !important;
 }
 .s-chat-message[data-mid="512136"] {
