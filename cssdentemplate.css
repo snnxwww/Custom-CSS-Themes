@@ -434,6 +434,9 @@ input[type=button]:hover, input[type=submit]:hover {
 #chatMessagePinned a {
 	color: color-mix(in srgb, var(--chttxt), white 50%) !important;
 }
+#chatMessageContainer {
+	border: none !important;
+}
 
 ::-webkit-scrollbar {
   width: 6px;
