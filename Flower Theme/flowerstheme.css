@@ -21,7 +21,7 @@
 	--alrttxt: #bdb5ce80;
 
 	--hdtxt: #33009980;
-  --hdfont: "Zalando Sans Expanded";
+	--hdfont: "Zalando Sans Expanded";
 
 	--cmbclr: #674c9d80;
 	--cmbtxt: #9476c880;
@@ -56,7 +56,7 @@
 }
 
 body {
-	background-color: var(--bgclr) !important;
+	background-color: var(--bgclr);
 	background-image: var(--bgimg);
 	background-position: center !important;
 	background-size: cover !important;
