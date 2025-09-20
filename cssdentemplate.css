@@ -134,6 +134,13 @@ img[src*="logo-full-2.png"] {
 .breadcrumb-item.active {
 	color: color-mix(in srgb, var(--bctxt), white 25%) !important;
 }
+.breadcrumb::after {
+    content: "CSS by Snow (#553411)";
+	color: color-mix(in srgb, var(--bctxt), white 50%);
+    font-size: 12px;
+	position: absolute;
+	right: 16%;
+}
 
 .alert {
 	color: var(--alrtclr) !important;
