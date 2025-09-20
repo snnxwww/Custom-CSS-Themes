@@ -420,3 +420,8 @@ input[type=button]:hover, input[type=submit]:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #6c7c7c80;
 }
+
+.badge {
+	background: #6c7c7c80  !important;
+	color: #ffffff80 !important;
+}
