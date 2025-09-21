@@ -1,52 +1,4 @@
 /* custom cave order */
-@media (min-width: 992px) {
-	#fraCaveList .col-md-4.center:nth-child(1) {
-	    position: relative;
-	    transform: translateY(200%);
-	    left: 66.65%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(2) {
-	    position: relative;
-	    transform: translateY(0%);
-	    left: -33.35%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(3) {
-	    position: relative;
-	    transform: translateY(200%);
-	    left: -33.35%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(4) {
-	    position: relative;
-	    transform: translateY(100%);
-	    left: 0%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(5) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 0%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(6) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 0%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(7) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 33.35%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(8) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 33.35%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(9) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: -66.65%;
-	}	
-}
-@media (max-width: 992px) {
 	a[href$="unsorted.php?id=553411"] > .cave-grid {
 		position: relative;
 	    width: 65%;
@@ -115,4 +67,50 @@
 	    transform: translate(-100%, -140%);	    
 		width: 33%;
 	}		
+@media (min-width: 992px) {
+	#fraCaveList .col-md-4.center:nth-child(1) {
+	    position: relative;
+	    transform: translateY(200%);
+	    left: 66.65%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(2) {
+	    position: relative;
+	    transform: translateY(0%);
+	    left: -33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(3) {
+	    position: relative;
+	    transform: translateY(200%);
+	    left: -33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(4) {
+	    position: relative;
+	    transform: translateY(100%);
+	    left: 0%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(5) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 0%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(6) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 0%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(7) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(8) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(9) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: -66.65%;
+	}	
 }
