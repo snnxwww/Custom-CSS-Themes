@@ -1,8 +1,9 @@
-/* custom cave order */
+/* caves */
 .main .col-md-4.col-xs-6 {
       width: 33% !important;
       height: 25% !important;
    }
+/* custom cave order */
 #fraCaveList .col-md-4.center:nth-child(1) {
 	    position: relative;
 	    transform: translateY(200%);
@@ -47,4 +48,26 @@
 	    position: relative;
 	    transform: translateY(-100%);
 	    left: -66%;
-	}
+	}	
+#fraCaveList .col-xs-6 {
+	height: 130px !important;
+}
+
+#fraCaveList .cave-grid{
+	height: 100px !important;
+	transition: height 0.3s ease-in-out;
+}
+
+#fraCaveList .cave-grid:hover{
+	height: 125px !important;
+	transition: height 0.3s ease-in-out;
+}
+#fraCaveList .cave-grid img {
+   height: 100px;
+   width: 100%;
+}
+.main {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: .1px;
+}
