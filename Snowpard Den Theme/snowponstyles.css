@@ -60,50 +60,6 @@
 	    transform: translateY(-40%);
 	    left: -66.65%;
 	}	
-	a[href$="unsorted.php?id=553411"] > .cave-grid {
-		height: 45px;
-		transition: height 0.3s ease-in-out;
-	}
-	a[href$="unsorted.php?id=553411"] > .cave-grid:hover {
-		height: 70px;
-		transition: transform 0.3 ease-in-out;
-	}
-	a[href$="nesting.php"] > .cave-grid {
-		height: 45px;
-		transition: height 0.3s ease-in-out;
-	}
-	a[href$="nesting.php"] > .cave-grid:hover {
-		height: 70px;
-		transition: height 0.3s ease-in-out;
-	}
-	a[href$="lionoverview.php?id=553411"] > .cave-grid {
-	    height: 45px;
-		transition: height 0.3s ease-in-out;
-		}
-	a[href$="lionoverview.php?id=553411"] > .cave-grid:hover {
-	    height: 70px;
-		transition: height 0.3s ease-in-out;
-	}
-	
-	#fraOrganizationBlock  .cave-grid {
-		border: 0.5px solid #ffffff !important;
-		padding-bottom: 0% !important;
-	}
-	#fraOrganizationBlock .cave-grid img  {
-		margin-bottom: 0px !important;
-		width: % !important;
-	}
-	#fraCaveList .col-xs-6 {
-		height: 140px !important;
-	}
-	#fraCaveList .cave-grid {
-		height: 100px !important;
-		transition: height 0.3s ease-in-out;
-	}
-	#fraCaveList .cave-grid:hover{
-		height: 122.5px !important;
-		transition: height 0.3s ease-in-out;
-	}
 }
 @media (max-width: 991px) {
 	a[href$="unsorted.php?id=553411"] > .cave-grid {
@@ -192,26 +148,6 @@
 		}
 	a[href$="lionoverview.php?id=553411"] > .cave-grid:hover {
 	    height: 70px;
-		transition: height 0.3s ease-in-out;
-	}
-	
-	#fraOrganizationBlock  .cave-grid {
-		border: 0.5px solid #ffffff !important;
-		padding-bottom: 0% !important;
-	}
-	#fraOrganizationBlock .cave-grid img  {
-		margin-bottom: 0px !important;
-		width: % !important;
-	}
-	#fraCaveList .col-xs-6 {
-		height: 140px !important;
-	}
-	#fraCaveList .cave-grid {
-		height: 100px !important;
-		transition: height 0.3s ease-in-out;
-	}
-	#fraCaveList .cave-grid:hover{
-		height: 122.5px !important;
 		transition: height 0.3s ease-in-out;
 	}
 }
