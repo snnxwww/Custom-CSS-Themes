@@ -5,54 +5,54 @@
    }
 /* custom cave order */
 #fraCaveList .col-md-4.center:nth-child(1) {
-	    position: relative;
-	    transform: translateY(200%);
+	position: relative;
+    transform: translateY(200%);
 	    left: 66%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(2) {
-	    position: relative;
-	    transform: translateY(0%);
-	    left: -33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(3) {
-	    position: relative;
-	    transform: translateY(200%);
-	    left: -33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(4) {
-	    position: relative;
-	    transform: translateY(100%);
-	    left: 0%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(5) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 0%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(6) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 0%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(7) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(8) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(9) {
-	    position: relative;
-	    transform: translateY(-100%);
-	    left: -66%;
-	}	
+}
+#fraCaveList .col-md-4.center:nth-child(2) {
+    position: relative;
+    transform: translateY(0%);
+    left: -33%;
+}
+#fraCaveList .col-md-4.center:nth-child(3) {
+    position: relative;
+    transform: translateY(200%);
+    left: -33%;
+}
+#fraCaveList .col-md-4.center:nth-child(4) {
+    position: relative;
+    transform: translateY(100%);
+    left: 0%;
+}
+#fraCaveList .col-md-4.center:nth-child(5) {
+    position: relative;
+    transform: translateY(-100%);
+    left: 0%;
+}
+#fraCaveList .col-md-4.center:nth-child(6) {
+    position: relative;
+    transform: translateY(-100%);
+    left: 0%;
+}
+#fraCaveList .col-md-4.center:nth-child(7) {
+    position: relative;
+    transform: translateY(-100%);
+    left: 33%;
+}
+#fraCaveList .col-md-4.center:nth-child(8) {
+    position: relative;
+    transform: translateY(-100%);
+    left: 33%;
+}
+#fraCaveList .col-md-4.center:nth-child(9) {
+    position: relative;
+    transform: translateY(-100%);
+    left: -66%;
+}	
+/* hover effect */
 #fraCaveList .col-xs-6 {
 	height: 130px !important;
 }
-
 #fraCaveList .cave-grid{
 	height: 100px !important;
 	transition: height 0.3s ease-in-out;
@@ -70,4 +70,33 @@
     font-weight: bold;
     font-size: 12px;
     letter-spacing: .1px;
+}
+
+/* cave images */
+a[href$="cave.php?id=494151"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=497532"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=501060"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=501015"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=497531"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=501107"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=501094"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=501014"] > .cave-grid img {
+    content: url('image url');
+}
+a[href$="cave.php?id=501106"] > .cave-grid img {
+    content: url('image url');
 }
