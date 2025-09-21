@@ -72,7 +72,7 @@
     letter-spacing: .1px;
 }
 
-/* cave images */
+/* cave images *//*
 a[href$="cave.php?id=494151"] > .cave-grid img {
     content: url('image url');
 }
@@ -99,4 +99,4 @@ a[href$="cave.php?id=501014"] > .cave-grid img {
 }
 a[href$="cave.php?id=501106"] > .cave-grid img {
     content: url('image url');
-}
+}*/
