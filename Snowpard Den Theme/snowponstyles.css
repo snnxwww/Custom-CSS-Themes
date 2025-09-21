@@ -1,153 +1,50 @@
 /* custom cave order */
-@media (min-width: 991.5px) {
-	a[href$="unsorted.php?id=553411"] > .cave-grid {
-		position: absolute;
-	    width: 87%;
-		left: %;
-	}
-	a[href$="nesting.php"] > .cave-grid {
-		position: absolute;
-	    width: 87%;
-	    margin: 0;
-		left: %;
-	}
-	a[href$="lionoverview.php?id=553411"] > .cave-grid {
-	    position: absolute;
-	    width: 87%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(1) {
+.main .col-md-4.col-xs-6 {
+      width: 33% !important;
+      height: 25% !important;
+   }
+#fraCaveList .col-md-4.center:nth-child(1) {
 	    position: relative;
-	    transform: translateY(260%);
-	    left: 66.65%;
+	    transform: translateY(200%);
+	    left: 66%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(2) {
 	    position: relative;
-	    transform: translateY(60%);
-	    left: -33.35%;
+	    transform: translateY(0%);
+	    left: -33%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(3) {
 	    position: relative;
-	    transform: translateY(260%);
-	    left: -33.35%;
+	    transform: translateY(200%);
+	    left: -33%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(4) {
 	    position: relative;
-	    transform: translateY(160%);
+	    transform: translateY(100%);
 	    left: 0%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(5) {
 	    position: relative;
-	    transform: translateY(-40%);
+	    transform: translateY(-100%);
 	    left: 0%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(6) {
 	    position: relative;
-	    transform: translateY(-40%);
+	    transform: translateY(-100%);
 	    left: 0%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(7) {
 	    position: relative;
-	    transform: translateY(-40%);
-	    left: 33.35%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(8) {
-	    position: relative;
-	    transform: translateY(-40%);
-	    left: 33.35%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(9) {
-	    position: relative;
-	    transform: translateY(-40%);
-	    left: -66.65%;
-	}	
-}
-@media (max-width: 991px) {
-	a[href$="unsorted.php?id=553411"] > .cave-grid {
-		position: absolute;
-	    width: 60%;
-		left: 4%;
-	}
-	a[href$="nesting.php"] > .cave-grid {
-		position: absolute;
-	    width: 60%;
-	    margin: 0;
-		left: -31%;
-	}
-	a[href$="lionoverview.php?id=553411"] > .cave-grid {
-    position: absolute;
-    width: 60%;
-	left: 133.5%;
-	}
-
-	#fraCaveList .col-md-4.center:nth-child(1) {
-	    position: relative;
-	    transform: translate(-51.6%, 237.5%);	    
+	    transform: translateY(-100%);
 	    left: 33%;
-		width: 33%;
-		margin-top: 3%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(2) {
-	    position: relative;
-	    transform: translate(0%, -57.5%);	    
-		width: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(3) {
-	    position: relative;
-	    transform: translate(0%, 137.4%);	    
-		width: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(4) {
-	    position: relative;
-	    transform: translate(-200%, 137.5%);	    
-		width: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(5) {
-	    position: relative;
-	    transform: translate(100%, -157.5%);	    
-		width: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(6) {
-	    position: relative;
-	    transform: translate(100%, -157.5%);	    
-		width: 33%;
-	}
-	#fraCaveList .col-md-4.center:nth-child(7) {
-	    position: relative;
-	    transform: translate(-100%, -60%);	    
-		width: 33%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(8) {
 	    position: relative;
-	    transform: translate(200%, -160%);	    
-		width: 33%;
+	    transform: translateY(-100%);
+	    left: 33%;
 	}
 	#fraCaveList .col-md-4.center:nth-child(9) {
 	    position: relative;
-	    transform: translate(-100%, -160%);	    
-		width: 33%;
-	}	
-	a[href$="unsorted.php?id=553411"] > .cave-grid {
-		height: 50px;
-		transition: height 0.3s ease-in-out;
+	    transform: translateY(-100%);
+	    left: -66%;
 	}
-	a[href$="unsorted.php?id=553411"] > .cave-grid:hover {
-		height: 70px;
-		transition: transform 0.3 ease-in-out;
-	}
-	a[href$="nesting.php"] > .cave-grid {
-		height: 50px;
-		transition: height 0.3s ease-in-out;
-	}
-	a[href$="nesting.php"] > .cave-grid:hover {
-		height: 70px;
-		transition: height 0.3s ease-in-out;
-	}
-	a[href$="lionoverview.php?id=553411"] > .cave-grid {
-	    height: 50px;
-		transition: height 0.3s ease-in-out;
-		}
-	a[href$="lionoverview.php?id=553411"] > .cave-grid:hover {
-	    height: 70px;
-		transition: height 0.3s ease-in-out;
-	}
-}
