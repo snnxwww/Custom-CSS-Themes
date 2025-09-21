@@ -1,0 +1,118 @@
+/* custom cave order */
+@media (min-width: 992px) {
+	#fraCaveList .col-md-4.center:nth-child(1) {
+	    position: relative;
+	    transform: translateY(200%);
+	    left: 66.65%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(2) {
+	    position: relative;
+	    transform: translateY(0%);
+	    left: -33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(3) {
+	    position: relative;
+	    transform: translateY(200%);
+	    left: -33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(4) {
+	    position: relative;
+	    transform: translateY(100%);
+	    left: 0%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(5) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 0%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(6) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 0%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(7) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(8) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: 33.35%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(9) {
+	    position: relative;
+	    transform: translateY(-100%);
+	    left: -66.65%;
+	}	
+}
+@media (max-width: 992px) {
+	a[href$="unsorted.php?id=553411"] > .cave-grid {
+		position: relative;
+	    width: 65%;
+	    margin: 0;
+		transform: translateY(0%);
+		transform: translateX(0%);
+	}
+	a[href$="nesting.php"] > .cave-grid {
+		position: relative;
+	    width: 65%;
+	    margin: 0;
+		transform: translateY(0%);
+		transform: translateX(-60%);
+	}
+	a[href$="lionoverview.php?id=553411"] > .cave-grid {
+		position: relative;
+	    width: 65%;
+		margin: 0;
+		transform: translateX(218%) translateY(-100%);
+	}
+
+	#fraCaveList .col-md-4.center:nth-child(1) {
+	    position: relative;
+	    transform: translate(-51.6%, 260%);	    
+	    left: 33%;
+		width: 33%;
+		margin-top: -9%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(2) {
+	    position: relative;
+	    transform: translate(0%, -40%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(3) {
+	    position: relative;
+	    transform: translate(0%, 160%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(4) {
+	    position: relative;
+	    transform: translate(-200%, 160%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(5) {
+	    position: relative;
+	    transform: translate(100%, -140%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(6) {
+	    position: relative;
+	    transform: translate(100%, -140%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(7) {
+	    position: relative;
+	    transform: translate(-100%, -40%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(8) {
+	    position: relative;
+	    transform: translate(200%, -140%);	    
+		width: 33%;
+	}
+	#fraCaveList .col-md-4.center:nth-child(9) {
+	    position: relative;
+	    transform: translate(-100%, -140%);	    
+		width: 33%;
+	}		
+}
