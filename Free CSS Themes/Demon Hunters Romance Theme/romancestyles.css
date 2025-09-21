@@ -1,7 +1,7 @@
 :root {
 	--txt: #d2c5d2;
 	--font: "Josefin Sans";
-	--fontfam: "Sans-Serif";
+	--fontfam: "Serif";
 
 	--bgclr: #c886d480;
 	--bgimg: url('https://images.thedirect.com/media/photos/2romance.png');
@@ -180,7 +180,7 @@ img[src*="logo-full-2.png"] {
 
 h1 {
 	color: var(--hdtxt) !important;
-	font-family: "Zalando Sans Expanded", serif !important;
+	font-family: "Josefin Sans", var(--fontfam) !important;
 	text-align: center !important;
 	font-size: 60px !important;
 }
