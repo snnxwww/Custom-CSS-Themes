@@ -132,6 +132,8 @@ img[src*="caveunused.jpg"] {
 }
 img[src*="logo-full-2.png"] {
 	content: var(--logo) !important;
+	height: 120px !important;
+	width: 192px !important;
 }
 
 
