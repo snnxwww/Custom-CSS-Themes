@@ -15,7 +15,10 @@
    | 100% = 1 slot
 */
 
-
+.main .col-md-4 {
+      width: 33% !important;
+      height: 25% !important;
+   }
 #fraCaveList .col-md-4.center:nth-child(1) {
 	position: relative;
   transform: translateY(#%);
