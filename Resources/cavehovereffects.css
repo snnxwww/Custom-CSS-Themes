@@ -1,18 +1,10 @@
 /* ------------------------------------------ *
-               CUSTOM CAVE ORDER
+               CAVE HOVER EFFECTS
  * ------------------------------------------ *
    CREDIT TO SNOW (#553411), DO NOT REMOVE
    INSTRUCTIONS FOR USE:
  * ------------------------------------------ *
-   LEFT/RIGHT: 'left' property
-   | Negative = left
-   | Positive = right
-   | 33% = 1 slot
-
-   UP/Down: 'transform' property
-   | Negative = up
-   | Positive = down
-   | 100% = 1 slot
+   ADJUST TRANSITION TIME: # = milliseconds
 */
 
 #fraCaveList .col-xs-6 {
@@ -20,16 +12,15 @@
 }
 #fraCaveList .cave-grid{
 	height: 100px !important;
-	transition: height 0.3s ease-in-out;
+	transition: height 0.#s ease-in-out;
 }
 
 #fraCaveList .cave-grid:hover{
 	height: 125px !important;
-	transition: height 0.3s ease-in-out;
+	transition: height 0.#s ease-in-out;
 }
 #fraCaveList .cave-grid img {
    height: 100px;
-   width: 100%;
 }
 #fraCaveList {
     font-weight: bold;
