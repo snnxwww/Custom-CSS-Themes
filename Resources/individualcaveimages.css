@@ -1,28 +1,45 @@
-* cave images */
-a[href$="cave.php?id=494151"] > .cave-grid img {
-    content: url('image url');
+/* ------------------------------------------ *
+            INDIVIDUAL CAVE IMAGES
+ * ------------------------------------------ *
+   CREDIT TO SNOW (#553411), DO NOT REMOVE
+   INSTRUCTIONS FOR USE:
+ * ------------------------------------------ *
+   TARGETTING CAVES: replace 'CAVEID'
+   | Go to your cave
+   | You will find your cave's ID at the end of the link
+   | Copy the ID and replace the placeholder 'CAVEID'
+
+   REPLACING IMAGES: replace 'IMAGEURL'
+   | Get your image address link
+   | Replace the placeholder 'IMAGEURL' with your link
+
+   REPEAT FOR HOWEVER MANY CAVES YOU HAVE
+*/
+
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=497532"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=501060"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=501015"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=497531"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=501107"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=501094"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
-a[href$="cave.php?id=501014"] > .cave-grid img {
-    content: url('image url');
+a[href$="cave.php?id=CAVEID"] > .cave-grid img {
+    content: url('IMAGEURL');
 }
 a[href$="cave.php?id=501106"] > .cave-grid img {
-    content: url('image url');
+    content: url('IMAGEURL');
 }
