@@ -1,7 +1,6 @@
 /* caves */
 .main .col-md-4 {
       width: 33% !important;
-      height: 25% !important;
    }
 /* custom cave order */
 #fraCaveList .col-md-4.center:nth-child(1) {
