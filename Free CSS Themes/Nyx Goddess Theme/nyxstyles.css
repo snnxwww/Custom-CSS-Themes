@@ -121,6 +121,8 @@ img[src*="caveunused.jpg"] {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important;
 	vertical-align: middle !important;
+	text-transform: lowercase !important;
+	font-size: 24px !important;
 }
 .navbar a:hover {
 	background-color: color-mix(in srgb, var(--nbclr), white 25%) !important;
