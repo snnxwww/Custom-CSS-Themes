@@ -1,0 +1,52 @@
+:root {
+	--txt: #7886ad;
+	--font: "Lavishly Yours";
+	--fontfam: "Sans-Serif";
+
+	--bgclr: #4169E1;
+	--bgimg: url('https://mythologyvault.com/wp-content/uploads/2024/06/the_goddess_of_night.jpg');
+	--mnclr: #8ea0d680;
+	--sdclr: #1b213480;
+
+	--tbclr: #1f2a4a80;
+	--tbtxt: #ecf0ff80;
+
+	--nbclr: #00000080;
+	--nbtxt: #a9b0c5;
+
+	--bcclr: #00000080;
+	--bctxt: #919dc2;
+
+	--alrtclr: #00000080;
+	--alrttxt: #919dc2;
+
+	--hdtxt: #142455;
+	--hdfont: "Lavishly Yours";
+
+	--cmbclr: #1b274a80;
+	--cmbtxt: #121d3e80;
+
+	--tblclr: #2d3c6b80;
+	--tblhdclr: #0f1d4780;
+	--tbltxt: #ffffff80;
+
+	--btnclr: #6474a580;
+	--btntxt: #ffffff80;
+
+	--on: #4169E1;
+	--off: #7f8aad;
+
+	--pbclr: #939cb880;
+	--pbprog: #222f5480;
+
+	--chtclr: #182858;
+	--chthdclr: #162a6380;
+	--chttxt: #1d2a51;
+
+	--scrl: #1d306b;
+
+	--sbicon: url('');
+	--gbicon: url('');
+	--logo: url('');
+	--caveimg: url('')
+}
