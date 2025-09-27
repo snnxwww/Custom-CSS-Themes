@@ -1,15 +1,60 @@
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+/* Base colors and scroll removal */
+.bigBox, .smallBox, .scrollBox {
+    background: #A3B4AE; /* default color */
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* scrollbars hidden */
+    padding: 20px;
+    text-align: left;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+/* Three boxes side by side */
+.scrollSection {
+    display: flex;          /* flex container */
+    justify-content: space-between;
+    gap: 10px;              /* spacing between boxes */
+    width: 90%;
+    margin: 0 auto;
+    height: auto;           /* adjust height automatically */
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+.bigBox {
+    flex: 1;                /* equal width for all three boxes */
+    min-width: 200px;       /* prevent shrinking too small */
+    height: 320px;          /* adjust as needed */
+}
+
+/* Optional: make headers inside boxes consistent */
+.bigBox h1,
+.bigBox h2,
+.bigBox h3,
+.smallBox h1,
+.smallBox h2,
+.smallBox h3,
+.scrollBox h1,
+.scrollBox h2,
+.scrollBox h3 {
+    margin: 0;
+    color: inherit;
+}
+
+/* Scrollbar removal */
+.bigBox::-webkit-scrollbar,
+.scrollBox::-webkit-scrollbar,
+.smallBox::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* Responsive: stack boxes on small screens */
+@media (max-width: 768px) {
+    .scrollSection {
+        flex-direction: column;
+    }
+
+    .bigBox {
+        width: 100%;
+        height: auto;
+    }
 }
