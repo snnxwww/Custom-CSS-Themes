@@ -1,10 +1,9 @@
 /* Base colors and scroll removal */
 .bigBox, .smallBox, .scrollBox {
-    background: #A3B4AE; /* default color */
+    background: #e0e0e0; /* default color */
     color: #000;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden; /* scrollbars hidden */
+    border-radius: 0px;
+    overflow: auto; /* scrollbars hidden */
     padding: 20px;
     text-align: left;
 }
