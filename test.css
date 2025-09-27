@@ -1,3 +1,35 @@
+.scrollSection {
+    margin: 0 auto;
+    width: 90%;
+    height: 350px;
+}
+
+.bigBox::-webkit-scrollbar,
+.scrollBox::-webkit-scrollbar,
+.smallBox::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.bigBox h1,
+.bigBox h2,
+.bigBox h3,
+.scrollBox h1,
+.scrollBox h2,
+.scrollBox h3,
+.smallBox h1,
+.smallBox h2,
+.smallBox h3 {
+    margin: 0;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    #fraProfileContent.hidden-xs {
+        display: block !important;
+    }
+}
+
 /* Base colors and scroll removal */
 .bigBox, .smallBox, .scrollBox {
     background: #e0e0e0; /* default color */
