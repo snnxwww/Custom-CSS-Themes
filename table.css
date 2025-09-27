@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.tables-container {
+  display: flex;
+  gap: 20px;          /* space between tables */
+  flex-wrap: wrap;    /* lets them stack on small screens */
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 220px;
+  flex: 1 1 300px;    /* responsive widths */
+  background: white;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+thead {
+  background: #f0f0f0;
+  font-weight: bold;
+}
