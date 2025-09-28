@@ -1,0 +1,487 @@
+:root {
+	--txt: #bed8d8;
+	--font: "OpenSans";
+	--fontfam: "Sans-Serif";
+
+	--bgclr: #646b6b;
+	--bgimg: url('https://i.pinimg.com/1200x/13/8c/b9/138cb9c6b2f4910a4ff3967c52d390a5.jpg');
+	--mnclr: #a6b3b380;
+	--sdclr: #89969680;
+
+	--tbclr: #646b6b80;
+	--tbtxt: #dfecec;
+
+	--nbclr: #646b6b80;
+	--nbtxt: #dfecec;
+
+	--bcclr: #646b6b80;
+	--bctxt: #dfecec;
+
+	--alrtclr: #646b6b80;
+	--alrttxt: #dfecec;
+
+	--hdtxt: #dfecec;
+	--hdfont: "OpenSans";
+
+	--cmbclr: #646b6b80;
+	--cmbtxt: #646b6b80;
+
+	--tblclr: #a6b3b380;
+	--tblhdclr: #646b6b80;
+	--tbltxt: #dfecec;
+
+	--btnclr: #646b6b80;
+	--btntxt: #dfecec;
+
+	--on: #dfecec80;
+	--off: #a2acac80;
+
+	--pbclr: #646b6b80;
+	--pbprog: #dfecec80;
+
+	--chtclr: #dfecec80;
+	--chthdclr: #646b6b80;
+	--chttxt: #356b6b80;
+
+	--scrl: #dfecec80;
+
+	--sbicon: url('');
+	--gbicon: url('');
+	--logo: url('https://files.catbox.moe/94tmx2.png');
+
+	* {
+	color: var(--txt) !important;
+	font-family: var(--font), var(--fontfam) !important;
+}
+
+body {
+	background-color: var(--bgclr);
+	background-image: var(--bgimg);
+	background-position: center !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+}
+
+
+.main {
+	background-color: var(--mnclr) !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.col-xs-12 {
+	background-color: #ffffff00 !important;
+}
+.col-md-9 {
+	background-color: #ffffff00 !important;
+}
+.sidebar.col-md-3 {
+	background-color: var(--sdclr) !important;
+}
+
+.topbar {
+	background-color: var(--tbclr) !important;
+	color: color-mix(in srgb, var(--tbtxt), white 90%) !important;
+	border-bottom-left-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+.topbar a {
+	color: var(--tbtxt) !important;
+}
+.topbar a:hover {
+	color: color-mix(in srgb, var(--tbtxt), white 50%) !important;
+}
+img[src*="icon-beetle-silver.png"] {
+	content: var(--sbicon) !important;
+	width: 20px !important;
+	height: 20px !important;
+}
+img[src*="icon-beetle-gold.png"] {
+	content: var(--gbicon) !important;
+	width: 20px !important;
+	height: 20px !important;
+}
+img[src*="cavedefault.jpg"] {
+	content: var(--caveimg) !important;
+	height: 120px;
+}
+img[src*="caveunused.jpg"] {
+	content: var(--caveimg) !important;
+	height: 120px;
+}
+
+
+.navbar {
+	background-color: var(--nbclr) !important;
+	border-top-left-radius: 4px !important;
+	border-top-right-radius: 4px !important;
+}
+.navbar a {
+	color: var(--nbtxt) !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	vertical-align: middle !important;
+	
+	
+}
+.navbar a:hover {
+	background-color: color-mix(in srgb, var(--nbclr), white 25%) !important;
+	color: color-mix(in srgb, var(--nbclr), black 25%) !important;
+}
+
+.navbar-header a:hover {
+	background-color: #ffffff00 !important
+}
+img[src*="logo-full-2.png"] {
+	content: var(--logo) !important;
+	height: 120px !important;
+	width: 192px !important;
+}
+
+
+.breadcrumb {
+	background-color: var(--bcclr) !important;
+	border-radius: 2px !important;
+}
+.breadcrumb a {
+	color: var(--bctxt) !important;
+}
+.breadcrumb-item {
+	color: color-mix(in srgb, var(--bctxt), white 15%) !important;
+}
+.breadcrumb-item.active {
+	color: color-mix(in srgb, var(--bctxt), white 25%) !important;
+}
+.breadcrumb::after {
+    content: "CSS by Snow (#553411)";
+	color: color-mix(in srgb, var(--bctxt), white 25%);
+    font-size: 12px;
+	position: absolute;
+	right: 16%;
+}
+
+.alert {
+	color: var(--alrtclr) !important;
+}
+.alert a {
+	color: var(--alrttxt) !important;
+}
+.alert a:hover {
+	color: color-mix(in srgb, var(--alrttxt), white 25%) !important;
+}
+.alert-warning, .alert-danger {
+	background-color: color-mix(in srgb, var(--alrtclr), black 15%) !important;
+	border: none !important;
+	border-radius: 2px !important;
+}
+.alert-success {
+	background-color: var(--alrtclr) !important;
+	border: none !important;
+
+}
+
+h1 {
+	color: var(--hdtxt) !important;
+	font-family: var(--hdfont), var(--fontfam) !important;
+	text-align: center !important;
+	font-size: 60px !important;
+}
+
+#commentBox {
+	background-color: #ffffff20 !important;
+	border-radius: 4px !important;
+	border: 1px solid color-mix(in srgb, var(--cmbclr), black 75%)!important;
+}
+.comment {
+	background-color: #ffffff00 !important;
+	border-top: 1px solid color-mix(in srgb, var(--cmbclr), black 75%) !important;
+	color: #ffffff00 !important;
+}
+.comment:first-child {
+	border: none !important;
+}
+.comment a {
+	color: color-mix(in srgb, var(--cmbtxt), black 25%) !important;
+}
+.comment a:hover {
+	color: color-mix(in srgb, var(--cmbtxt), black 35%) !important;
+}
+#comment {
+	background-color: var(--cmbclr) !important;
+	border: none !important;
+	padding-left: 5px !important;
+	border-radius: 2px !important;
+}
+
+
+.table {
+	background-color: var(--tblclr) !important;
+	border-radius: 4px !important;
+	border: none !important;
+}
+.table .top, .table th {
+	background-color: var(--tblhdclr) !important;
+}
+.table .left {
+	background-color: color-mix(in srgb, var(--tblclr), black 40%) !important;
+}
+.table .left.b.center {
+	display: none !important;
+}
+.table .inner-table .right {
+	background-color: color-mix(in srgb, var(--tblclr), white 25%) !important;
+}
+.table .bottom {
+	background-color: var(--tblhdclr) !important;
+}
+.table a {
+	color: var(--tbltxt) !important;
+	text-decoration: none !important;
+}
+.table a:hover {
+	color: color-mix(in srgb, var(--tbltxt), white 50%) !important;
+}
+
+select {
+    background-color: var(--btnclr) !important;
+    color: var(--btntxt) !important;
+    padding: 1px !important;
+	padding-left: 5px !important;
+    border-radius: 2px !important;
+    border: none !important;
+}
+
+.member-online {
+	background-color: #00000000 !important;
+}
+.member-online::before {
+    content: "[online]" !important;
+    color: color-mix(in srgb, var(--on), black 75%) !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: -55px !important; 
+    display: inline-flex; 
+    align-items: center;
+	padding-right: 10px !important;
+}
+
+.member-online::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: var(--on); 
+    border-radius: 50%; 
+    margin-right: 0px !important;
+	margin-top: 10px !important;
+}
+.member-offline {
+	background-color: #00000000 !important;
+}
+.member-offline::before {
+    content: "[offline]" !important;
+    color: color-mix(in srgb, var(--on), black 75%) !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: -55px !important; 
+    display: inline-flex; 
+    align-items: center;
+	padding-right: 10px !important;
+}
+
+.member-offline::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: var(--off); 
+    border-radius: 50%; 
+    margin-right: 0px !important;
+	margin-top: 10px !important;
+}
+
+.cave-grid, .mound-grid {
+	background-color: var(--btnclr) !important;
+	border: none !important;
+	border-radius: 2px !important;
+	color: var(--btntxt) !important;
+}
+.cave-grid:hover, .mound-grid:hover {
+	opacity: 0.8 !important;
+}
+.cave-grid img, .mound-grid img {
+	opacity: 0.8 !important;
+}
+.col-md-3.col-xs-4.center {
+	background: #ffffff00 !important;
+}
+
+.sidebar .panel {
+	background-color: color-mix(in srgb, var(--sdclr), black 15%) !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.panel-body {
+	color: var(--txt) !important;
+}
+.panel a {
+	color: color-mix(in srgb, var(--txt), white 25%) !important;
+}
+.panel a:hover {
+	color: color-mix(in srgb, var(--txt), white 50%) !important;
+}
+h3 {
+	color: var(--txt) !important;
+}
+
+.progress {
+    background-color: var(--pbclr);  
+    border-radius: 2px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 20px;
+}
+.progress-bar {
+    background-color: var(--pbprog) !important; 
+}
+
+
+.button {
+	background: var(--btnclr) !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: var(--btntxt) !important;
+	text-shadow: none !important;
+}
+.button:hover {
+	background: color-mix(in srgb, var(--btnclr), white 25%) !important;
+}
+input, select, textarea {	
+	background: var(--btnclr) !important;
+	border: none !important;
+	box-shadow: none !important;
+	color: var(--btntxt) !important;
+	text-shadow: none !important;
+}
+input[type=button]:hover, input[type=submit]:hover {
+	background: color-mix(in srgb, var(--btnclr), white 25%) !important;
+}
+.dynastylist .left {
+	background-color: var(--btnclr) !important;
+}
+.dynastylist .left h3 {
+	color: var(--btntxt) !important;
+}
+.col.col-sm-4 .left {
+	background-color: var(--btnclr) !important;
+	color: var(--btntxt) !important;
+}
+.left {
+	background-color: var(--btnclr) !important;
+}
+
+#sparring td.right_odd {
+  background-color: #ffffff00; 
+  padding: 10px; 
+  font-size: 12px; 
+  text-align: center;
+  border-bottom-right-radius: 2px; 
+}
+
+#player td.right_odd {
+  background-color: #ffffff00 !important; 
+  border-top: nonef !important; 
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+#chatMessageContainer {
+	border: none !important;
+}
+.s-chat-message:nth-child(even) {
+	background: #ffffff40 !important;
+	border-bottom: 1px solid !important;	
+}
+.s-chat-message:nth-child(odd) {
+	background: #ffffff40 !important;
+	border-bottom: 1px solid  !important;
+}
+.s-chat-message[data-mid="512136"] {
+    background-color: color-mix(in srgb, var(--chtclr), white 25%) !important;
+    border-radius: 4px;
+}
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+	background-color: color-mix(in srgb, var(--chtclr), black 25%) !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+	color: var(--chttxt) !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+	background-color: color-mix(in srgb, var(--chtclr), black 50%) !important;
+	color: color-mix(in srgb, var(--chttxt), black 75%) !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+	background-color: color-mix(in srgb, var(--chtclr), black 50%) !important;
+	color: #ffffff !important;
+	}
+.s-chat-message_claim {
+	background-color: color-mix(in srgb, var(--chtclr), white 50%) !important;
+	border-bottom: none !important;
+	color: color-mix(in srgb, var(--chttxt), black 50%) !important;
+	}
+#modalClaimBG {
+	background: color-mix(in srgb, var(--chtclr), white 75%) !important;
+	opacity: 0.5 !important;
+}
+#modalClaimList {
+	background: color-mix(in srgb, var(--chtclr), white 50%) !important;
+	border: none !important;
+	box-shadow: none!important;
+}
+#modalClaimList h3 {
+	background: color-mix(in srgb, var(--chtclr), white 25%) !important;
+	color: #fff !important;
+}
+#modalClaimList button.close {
+	color: color-mix(in srgb, var(--chttxt), white 75%) !important;
+}
+.chatMenu-container {
+	background-color: color-mix(in srgb, var(--chtclr), white 90%) !important;
+}
+#label_currentChannel {
+	background-color: color-mix(in srgb, var(--chtclr), white 90%) !important;
+	color: var(--chttxt) !important;
+}
+#chatMessagePinned {
+	background-color: var(--chthdclr) !important;
+	border-bottom: none !important;
+}
+#chatMessagePinned a {
+	color: color-mix(in srgb, var(--chttxt), white 50%) !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrl);
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--scrl), white 25%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--scrl), black 15%);
+}
+
+.badge {
+	background: color-mix(in srgb, var(--tbclr), white 25%) !important;
+	color: var(--tbclr) !important;
+}
+	
+}
