@@ -90,6 +90,8 @@ body {
     font-size: 14px;
     color: #333;
     z-index: 9999;
+    max-height: 300px;   /* set the maximum height */
+    overflow-y: auto;    /* enable vertical scrolling */
   }
 
   .floating-box h3 {
