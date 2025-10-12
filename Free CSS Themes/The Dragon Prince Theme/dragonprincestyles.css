@@ -48,7 +48,7 @@
 	--sbicon: url('https://i.ibb.co/zh2TSNsW/TheOcean.webp');
 	--gbicon: url('https://i.ibb.co/4ZjNFjTX/TheMoon.webp');
 	--logo: url('https://i.ibb.co/zh366wMH/logo.webp');
-
+}
 
 	* {
 	color: var(--txt) !important;
@@ -485,6 +485,4 @@ input[type=button]:hover, input[type=submit]:hover {
 .badge {
 	background: color-mix(in srgb, var(--tbclr), white 25%) !important;
 	color: var(--tbclr) !important;
-}
-	
 }
