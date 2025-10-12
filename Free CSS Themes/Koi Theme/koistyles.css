@@ -34,10 +34,10 @@
 	--btntxt: #000000;
 
 	--on: #FFFFFF;
-	--off: #FFFFFF;
+	--off: #000000;
 
-	--pbclr: #FFFFFF;
-	--pbprog: #FFFFFF;
+	--pbclr: #FFFFFF80;
+	--pbprog: #4d4d4d80;
 
 	--chtclr: #1e1e1e;
 	--chthdclr: #cccccc;
