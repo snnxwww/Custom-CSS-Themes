@@ -121,8 +121,8 @@ img[src*="caveunused.jpg"] {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important;
 	vertical-align: middle !important;
-	
-	
+	text-transform: lowercase !important;
+	font-size: 24px !important;
 }
 .navbar a:hover {
 	background-color: color-mix(in srgb, var(--nbclr), white 25%) !important;
@@ -399,11 +399,11 @@ input[type=button]:hover, input[type=submit]:hover {
 	border: none !important;
 }
 .s-chat-message:nth-child(even) {
-	background: #ffffff40 !important;
+	background: #f3c3c373 !important;
 	border-bottom: 1px solid !important;	
 }
 .s-chat-message:nth-child(odd) {
-	background: #ffffff40 !important;
+	background: #f3c3c373 !important;
 	border-bottom: 1px solid  !important;
 }
 .s-chat-message[data-mid="512136"] {
@@ -483,7 +483,7 @@ input[type=button]:hover, input[type=submit]:hover {
 	background: color-mix(in srgb, var(--tbclr), white 25%) !important;
 	color: var(--tbclr) !important;
 }
-	
+
 #lion_image {
   position: relative;
   display: inline-block;
@@ -501,6 +501,5 @@ input[type=button]:hover, input[type=submit]:hover {
   pointer-events: none; 
   z-index: 10; /
 }
-
-
+	--caveimg: url('')
 }
