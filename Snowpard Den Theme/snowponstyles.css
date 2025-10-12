@@ -48,7 +48,7 @@
     transform: translateY(-100%);
     left: -66%;
 }	
-/* hover effect */
+/* hover effect
 #fraCaveList .col-xs-6 {
 	height: 130px !important;
 }
@@ -69,7 +69,7 @@
     font-weight: bold;
     font-size: 12px;
     letter-spacing: .1px;
-}
+} */
 
 /* cave images *//*
 a[href$="cave.php?id=494151"] > .cave-grid img {
