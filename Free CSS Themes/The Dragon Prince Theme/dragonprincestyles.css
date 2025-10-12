@@ -55,8 +55,8 @@
 }
 
 body {
-	background-color: var(--bgclr);
-	background-image: var(--bgimg);
+	background-color: var(--bgclr) !important;
+	background-image: var(--bgimg) !important;
 	background-position: center !important;
 	background-size: cover !important;
 	background-attachment: fixed !important;
