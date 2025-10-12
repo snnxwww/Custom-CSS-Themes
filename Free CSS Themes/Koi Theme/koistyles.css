@@ -399,11 +399,11 @@ input[type=button]:hover, input[type=submit]:hover {
 	border: none !important;
 }
 .s-chat-message:nth-child(even) {
-	background: #f3c3c373 !important;
+	background: #ffffff80 !important;
 	border-bottom: 1px solid !important;	
 }
 .s-chat-message:nth-child(odd) {
-	background: #f3c3c373 !important;
+	background: #ffffff80 !important;
 	border-bottom: 1px solid  !important;
 }
 .s-chat-message[data-mid="512136"] {
