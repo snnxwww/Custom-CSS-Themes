@@ -1,3 +1,7 @@
+* {
+  font-size: clamp(1rem, 4vw, 1rem);
+}
+
 /* caves */
 .main .col-md-4 {
       width: 33% !important;
